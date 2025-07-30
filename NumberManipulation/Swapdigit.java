@@ -14,7 +14,7 @@ public class Swapdigit {
         int first=num/ (int)Math.pow(10, digits);
         int last=num%10;
         int mid=(num%(int)Math.pow(10, digits))/10;
-        int swapped=last*(int)Math.pow(10, digits)+mid*(int)Math.pow(10, (digits-1))+first;
+        int swapped=last*(int)Math.pow(10, digits)+mid*10+first;
         System.out.println(swapped);
 
     }

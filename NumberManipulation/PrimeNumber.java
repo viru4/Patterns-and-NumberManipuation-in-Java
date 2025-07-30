@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Prime {
+public class PrimeNumber {
     public static void ISPrime(int num) {
         if(num <= 1) {
             System.out.println(num + " is not a prime number.");

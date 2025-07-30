@@ -8,7 +8,7 @@ public class Swap2 {
             pos++;
             int pow=(int)Math.pow(10, digit-1);
             sum=sum+digit*pow;
-
+            num=num/10;
             
         }
         System.out.println("swapped number"+sum);
